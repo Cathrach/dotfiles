@@ -1,0 +1,9 @@
+= Tasks =
+
+- [X] Cicero final edits + handin
+- [X] start reading Tensor Categories chapter 4
+- [ ] grade Leo's resubmitted problem set
+- [ ] look at William's problems
+- [X] look at William's essay
+- [X] update design doc
+- [ ] begin implementing pipes

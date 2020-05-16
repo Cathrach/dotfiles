@@ -1,0 +1,30 @@
+- Uri's room:
+- area with crystal machine:
+- library:
+- top of tree:
+- pre-ship:
+- ship deck:
+- ship room:
+- right past lake:
+- right fork room:
+- gate:
+- mine:
+- lower mine:
+- overlord mine:
+- upper mine:
+- axe room:
+- two statues:
+- lift:
+- lift room:
+- castle road outside lift:
+- castle entrance:
+- observatory:
+- throne room:
+- castle left:
+- castle right:
+- bedroom:
+- tower outside:
+-	tower entrance:
+- tower top:
+- tower room:
+- garden:

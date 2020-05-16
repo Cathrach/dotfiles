@@ -1,0 +1,20 @@
+= Tasks =
+
+- [ ] grade Leo's resubmitted problem set
+- [ ] look at William's problems
+- [ ] begin implementing pipes
+- [ ] do at least 3 problems for math
+- [ ] 231 pset
+
+= Notes =
+
+- for midterm paper, write WC. don't go over the word limit!
+- be clear. please.
+- outline, then write
+- metaethics: are there ethics? objective morality?
+- metamorality: overarching moral theory that can put together various normative theories -- pragmatic solution, people can agree on
+- moral realism: there are objective moral facts: Moral Truth
+	-	division between people who think we can find it, approximate it, not find it
+	- how do we find it/approximate it?
+-	moral antirealism: no objective facts
+	-	subjectivism: all personal preference

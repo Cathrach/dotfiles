@@ -1,0 +1,180 @@
+VPN: 8585 2175 5043 9238
+
+= Todos =
+- WHAT is mutt
+- More on qutebrowser commands
+	- bitwarden integration
+- WHAT is remind
+	- https://www.roaringpenguin.com/wiki/index.php/Remind_FAQ
+	- http://www.43folders.com/2005/02/24/guest-mike-harris-looks-at-remind
+- [[Cordless]]
+- vim-latex shortctus for environments
+
+= Helpful Commands =
+- phone
+	- ifuse ~/iPhone _mounts /var/root/Media/_
+	- ifuse --documents [appid] [dir] _mounts documents folder of app (like vlc)_
+		- ideviceinstaller -l _gets appids_
+		- vlc: org.videolan.vlc-ios
+		- vox: com.coppertino.VoxMobile
+- printer
+	- lpadmin -p [name] -E -v socket://[ip] -m [driver] _configure printer_
+	- lpoptions -d [name] _set default printer_
+	- lpstat -s / lpstat -p [name] _check status_
+	- lpr [file] _print file_
+	- lpq _check queue_
+- bluetooth
+	- id: 70:26:05:AB:97:76
+	- bluetoothctl -> pair [id]; connect [id]
+	- mpris-proxy for media controls
+- audio files:
+	- fd -t f -e flac -x ffmpeg -i "{}" -qscale:a 0 "{.}.mp3"
+	- shnsplit file.cue -t %n-%t -o flac file.flac
+- touchpad:
+	- xinput enable/disable "ELAN0406:00 04F3:30A6 Touchpad"
+- buttons:
+	- volume: pactl set-sink-volume [volume]
+	- brightness: sudo light -S [brightness]
+
+= Packages Installed =
+- utils
+	- autoconf
+	- automake
+	- base
+	- bison
+	- clang
+	- cmake
+	- cpupower
+	- cups-pdf
+	- fd
+	- flex
+	- fzf
+	- gdb
+	- grub
+	- hplip
+	- htop
+	- i3-wm
+	- i7z
+	- intel-ucode
+	- light
+	- man-pages
+	- netctl
+	- network-manager-applet
+	- nvidia
+	- nvidia-settings
+	- opam
+	- optimus-manager
+	- pacman-contrib
+	- pkgconf
+	- pkgstats
+	- ripgrep
+	- sdl2_gfx
+	- sdl2_imgae
+	- stress-ng
+	- swaks
+	- thermald
+	- tlp
+	- udiskie
+	- unarchiver
+	- universal-ctags-git
+	- urlscan
+	- vimpager
+	- wmctrl
+	- xdotool
+	- xf86-video-vesa
+	- yay
+- xorg
+	- xorg-docs
+	- xorg-fonts-100dpi
+	- xorg-fonts-75dpi
+	- xorg-fonts-misc
+	- xorg-iceauth
+	- xorg-sessreg
+	- xorg-smproxy
+	- xorg-x11perf
+	- xorg-xbacklight
+	- xorg-xclock
+	- xorg-xcmsdb
+	- xorg-xcursorgen
+	- xorg-xdpyinfo
+	- xorg-xdriinfo
+	- xorg-xev
+	- xorg-xgamma
+	- xorg-xhost
+	- xorg-xinit
+	- xorg-xipnut
+	- xorg-xkbevd
+	- xorg-xkbutils
+	- xorg-xkill
+	- xorg-xlsatoms
+	- xorg-xlsclients
+	- xorg-xpr
+	- xorg-xrefresh
+	- xorg-xsetroot
+	- xorg-xvinfo
+	- xorg-xwd
+	- xorg-xwininfo
+	- xorg-xwud
+- music
+	- beets
+	- alsa
+		-	alsa-firmware
+		- alsa-oss
+		- alsa-tools
+		- alsa-utils
+	- bluez-utils
+	- cmus
+	- cuetools
+	- pulseaudio-bluetooth
+	- shntool
+- iphone
+	- icaclient
+	- ideviceinstaller-git
+	- ifuse
+- apps
+	- calibre
+	- cordless-git
+	- emacs
+	- feh
+	- firefox
+	- flameshot
+	- ghostwriter
+	- jdownloader2
+	- libreoffice-fresh
+	- neomutt
+	- neovim
+	- qbittorrent
+	- qutebrowser
+	- ranger
+	- remind
+	- signal-desktop
+	- skypeforlinux-stable-bin
+	- stoken-git
+	- termite
+	- thyme-git
+	- typespeed
+	- vlc
+	- zim
+	- zoom
+- tex
+	- texlive-bibtexextra
+	- texlive-fontsextra
+	- texlive-formatsextra
+	- texlive-humanities
+	- texlive-pstricks
+	- texlive-publishers
+	- texlive-science
+- misc
+	- fonts
+		- nerd-fonts-complete
+		- terminus-font
+		- ttf-adobe-source-fonts
+		- ttf-font-awesome
+		- ttf-inconsolata
+		- ttf-roboto
+		- ttf-ubuntu-font-family
+	- gtk-engine-murrine
+	- pepper-flash
+	- polychromatic
+	- zsh-completions
+	- zsh-theme-powerlevel10k-git

@@ -1,0 +1,2 @@
+ERROR 2020-01-24T23:59:07.295 2466  libuv_process_spawn:79: uv_spawn failed: too many open files
+ERROR 2020-01-24T23:59:07.301 2466  libuv_process_spawn:79: uv_spawn failed: too many open files

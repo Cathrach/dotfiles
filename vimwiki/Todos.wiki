@@ -1,0 +1,21 @@
+= General =
+
+- scraping Q: to bypass Harvard login, submit requests with session key cookie
+- [ ] BY 22/03/2020 - 6 problems for L: 4 combo, 2 geo:
+	- [ ] 1-2 annoying casework problems
+	- [ ] basic stars and bars
+	- [ ] ptolemy's theorem problem
+	- [ ] a geometry for #3 on mathcounts team of 4
+- [ ] clean up / dir bc reaching 32G cap
+
+= Daily =
+- [X] 08/03/2020 - In design doc, answer questions about synchronization and possible future changes
+- [X] 13/03/2020 - implement pipes
+- [X] 15/03/2020 - implement in-memory file system!
+- [X] 15/03/2020 - design and start execv FINISHED
+- [X] 16/03/2020 - finish problems for this week's reading
+- [X] 16/03/2020 - email Pavel and Mike
+- [X] 17/03/2020 - type up reading problems
+- [X] 17/03/2020 - start 231
+- [ ] 18/03/2020 - cohomology of Q_8 on Z_2, Z
+- [X] 18/03/2020 - email Pavel's exercises to Mike

@@ -1,0 +1,23 @@
+source "gpg -dq $HOME/.my_pwds.gpg |"
+## Receive options
+set imap_user=serina.hu@mathmaddicts.com
+set imap_pass=$my_mma_pass
+set folder=imaps://$imap_user@imap.gmail.com/
+set spoolfile = +INBOX
+set postponed = +Drafts
+unset record # Because GMail
+
+## Send options
+set smtp_url=smtps://$imap_user:$imap_pass@smtp.gmail.com"
+set realname='Serina Hu'
+set from=serina.hu@mathmaddicts.com
+set use_from = yes
+set hostname="mathmaddicts.com"
+set signature="Serina Hu"
+
+## Connection options
+set ssl_force_tls = yes
+unset ssl_starttls
+
+## Hook
+account-hook $folder "set imap_user=$imap_user imap_pass=$my_mma_pass"

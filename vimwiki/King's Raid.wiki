@@ -1,0 +1,41 @@
+= Gear =
+
+- FD sets:
+	- sets for Lorraine and Seria
+- BD sets:
+	- tier up rest of Lorraine/Frey
+	- find a M-oriented main armor
+	- P-oriented secondary
+	- bracelet
+	- necklace
+	- possibly second tank set
+
+- Artemia:
+	-	enchant! (missing everything but lifesteal)
+	- tier up
+	- runes: CD, C
+- Lorraine:
+	- find an FD set: 2 C/11 CD/4 A
+	- robe: A/C/CD + enchant
+	- enchant!
+	- runes: 3A, CD, C
+- Jane:
+	- tier up!
+- Frey:
+	- tier up!
+	- enchant (less necessary)
+
+- UW Priority:
+	- Artemia (to 3*)
+	- Lorraine (to 2* at least)
+	- Seria (to 3* probably)
+
+= Units =
+
+- Inn: Laias (why do I have so many wizard/priests)
+- *Seria*:
+	- gear: 2 crit, rest atk/crit dmg; presumably 11 CD, 4 atk
+	- shield is A/C/2 CD
+- Kaulah
+- Want:
+	-	Aselica

@@ -1,0 +1,19 @@
+NO ALTS
+
+taken: alt-shift-h/t/n/s/arrows/space/numbers
+
+goal:
+
+Event rune is just ascii code
+mod is 1/2/4 (shift/ctrl/alt)
+
+copy -> alt+shift+j (qwerty c)
+focus channel -> alt+c
+focus user -> alt+shift+p
+focus guild -> alt+g
+focus private -> alt+shift+d
+previous channel -> alt+l
+focus message -> alt+m
+focus message container -> alt+shift+m
+toggle user -> alt+shift+u *doesn't work - conflicts*
+toggle command -> alt+shift+.

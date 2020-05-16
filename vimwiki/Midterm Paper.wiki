@@ -1,0 +1,18 @@
+- Science: how the world "is" (maybe also quantitative? idk)
+- Morality: how the world "ought" to be
+- Guidelines
+	[here](https://canvas.harvard.edu/courses/65450/files/folder/Paper%20Topics?preview=9502510)
+- science debunks morality
+		- there is no "objective morality"
+		- we think things are right/wrong because we evolved to have good/bad reactions
+- science helps us establish moral theory, but it can't lead us to correct morality because it is incomplete 
+		- utilitarianism wants to maximize well-being and science can help us make rigorous what that means
+		- ngl it seems easiest to do this and address objections to utilitarianism (because we've already talked about this in section, and also because i've thought about it a fair amount)
+		- but (at least right now) science can only maximize well-being in the short term, not the long term
+				- eg donating your organs to save 5 other people: good now, but it's unclear what good you (or them) would do in the future, so should you?
+				- thorny problem of deciding the metric you use
+				- whose lives are "worth" more than others: if you had committed a murder but you had more "potential" to save more lives if you were let off lightly, should you be?
+				- but in the long term, this might incentivize people to commit more murders, so we should make this short-term sacrifice of your future help?
+				- and this "lives lost" theory assumes that people are independent of each other, not interconnected
+		- possibility that in the future, we can get so good at predicting this but I doubt it
+		- demanding-ness: goal is not to "optimize" because that's impossible, but to choose a course of action that's "pretty good": science (or statistics or something) can tell us a distribution for the impacts of our actions, but it's up to us to pick one.

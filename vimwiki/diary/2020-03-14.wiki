@@ -1,0 +1,16 @@
+= Group L postmortem =
+
+Overall, went quite well
+
+- students very lively and engaged
+- people asked questions and they were generally addressed: so slight improvement from not being able to see people's faces
+- not sure how lecture would work on weeks where there is some lecture; I think it would be better because students would have less incentive to keep texting each other
+
+- the chat was very cluttered and could be distracting
+- a zoom-like feature for hand-raising or yes/no or too slow/too fast would be helpful instead of making people say it in chat
+- the bitpaper was nice, but I think it would be helpful to have more fleshed-out solutions instead of a really quick sketch we did beforehand
+- students presenting solutions: even more confusing when it is done in person, oops. would be helpful if a teacher quickly recapped what the student did before moving on to recommended solution.
+- ideally, would want a chat client where
+	1. individual rooms/DMs are a possibility
+	2. can communicate things like "being confused" without explicitly needing to tell the whole chat
+	3. chat can be silenced/muted at some points (like during quiz durations)

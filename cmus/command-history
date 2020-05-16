@@ -1,0 +1,127 @@
+filter unheard
+factivate
+live-filter 
+live-filter noizenecio
+n
+live-filter myosuke
+live-filter dia
+filter myosuke
+filter
+filter 
+live-filter wavforme
+live-filter sunset
+vol +5%
+vol -5%
+vol +25
+vol 25
+view
+live-filter works
+fi
+live-filter after the rain
+li
+live-filter protocol
+live-filter jazzfunktion
+live-filter
+live-filter fugene
+live-filter unhe
+live-filter flower
+live-filter unheard
+live-filter drum
+filter date<=2017
+live-filter hardcore syndrome
+live-filter forgotten ancient
+live-filter hardcore
+live-filter anima i
+live-filter house
+live-filter kobayashi
+update-cache 
+toggle
+ed
+live-filter groundbreaking
+live-filter Dave 
+live-filter anima
+live-filter powerless
+clear
+live-filter evangelix
+live-filter psyqui
+rem
+delet
+live-filter DJMAX
+filter works
+live-filter dj okawari
+time
+live-filter all of me
+mark 
+pl-create ah! i shall weep.
+player-pause-playback
+guitar
+live-filter fly mytk
+live-filter future challenge
+live-filter Akira Complex
+filter Akira 
+live-filter revival
+filter un
+u
+clear 
+live-filter food and 
+live-filter phase
+live-filter ~a
+live-filter cytus
+right-view 
+live-filter Cytus
+live-filter convergence
+live-filter t+pazolite
+live-filter megarex
+live-filter MEGAREX
+undo
+help
+live-filter xi
+live-i
+live-filter recordare
+filter recordare
+filter ~a recordare
+filter ~a wave
+filter ~a WAVE
+filter ~aa WAVE
+filter ~a:WAVE
+filter ~aa:WAVE
+filte
+filter ~artist:WAVE
+live 
+live ko3
+live
+live-filter compllege
+factivate unheard
+live-filter play_count=0
+factiv
+q
+fset
+fset unheard=play_count=0
+set format_playlist_va= %-21%A %3n. %t - %a%= %y %d %{?X!=0?%3X ?    }
+set format_playlist_va= %-21%A %3n. %t -%a%= %y %d %{?X!=0?%3X ?    }
+set format_trackwin_va=%3n. %t - %a%= %y %d 
+filter ~A unitone | ~a unitone
+filter unitone
+cd ~/Music
+sort
+wqa
+filter luquor                                                                             2018 03:00
+live-filter ~a USAO
+live-filter ~
+set output_plugin=
+output
+shuffle
+live-filter ~y<2017
+cd
+colo 
+colorscheme green
+colorscheme gray-88
+colorscheme dracula
+colorscheme cyan
+colorscheme default
+win-remove
+remove
+win-remove 
+delete
+scan
+add
