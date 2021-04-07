@@ -56,7 +56,8 @@
   (add-to-list 'preview-default-preamble "\\PreviewEnvironment{tikzcd}" t)
   (add-to-list 'preview-default-preamble "\\PreviewEnvironment{tikzpicture}" t)
   )
-(with-eval-after-load "latex" 
+(with-eval-after-load "latex"
+  (setq LaTeX-electric-left-right-brace t)
   (TeX-add-style-hook
    "latex"
    (lambda ()
@@ -90,7 +91,8 @@
 (setq org-greek-directory "D:/org-roam/greek")
 (with-eval-after-load 'org
   (add-to-list 'org-modules 'org-habit t)
-  (add-to-list 'org-modules 'org-drill t))
+  (add-to-list 'org-modules 'org-drill t)
+  )
 
 ;; org tags
 (setq org-tag-alist '(("today" . ?n) ("important" . ?i)
@@ -135,6 +137,13 @@
 
 ;; org appearance
 (setq org-hide-emphasis-markers t)
+(font-lock-add-keywords 'org-mode
+                          '(("^ *\\([-]\\) "
+                             (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
+(use-package org-bullets
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+  )
 (custom-theme-set-faces
  'user
  '(variable-pitch ((t (:family "DejaVu Sans" :height 130))))
@@ -145,16 +154,19 @@
  '(org-tag ((t (:inherit (shadow fixed-pitch) :weight bold))))
  '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
  '(org-table ((t (:inherit fixed-pitch))))
- '(org-verbatim ((t (:inherit (shadow fixed pitch)))))
+ '(org-verbatim ((t (:inherit (shadow fixed-pitch)))))
  '(org-latex-and-related ((t (:inherit fixed-pitch :foreground "SaddleBrown"))))
 )
 (add-hook 'org-mode-hook 'variable-pitch-mode)
+(add-hook 'org-mode-hook (lambda () (setq-local line-spacing 0.5)))
 
 ;; org latex
 (setq org-preview-latex-default-process 'dvipng)
 
 ;; org-roam directory
 (setq org-roam-directory "D:/org-roam")
+(setq org-roam-db-update-method 'immediate)
+(setq org-roam-db-location "D:/org-roam.db")
 (setq org-roam-capture-templates
       '(("d" "default" plain (function org-roam--capture-get-point)
      "%?"
@@ -297,4 +309,6 @@
  '(org-agenda-files
    '("d:/org-roam/spring_2021_meetings.org" "d:/org-roam/spring_2021_classes.org" "d:/org-roam/20210223102750-quantum_groups_seminar.org" "d:/org-roam/20210222181730-grad_school_visits.org" "d:/org-roam/20210101141707-longest_a_tails_varepsilon_a_m.org" "D:/org-roam/20201224153158-formal_characters_of_representations_of_hecke_algebras.org" "D:/org-roam/greek/master.org" "D:/org-roam/inbox.org" "D:/org-roam/20201221201450-personal.org" "D:/org-roam/20201221192840-piano.org" "D:/org-roam/20201221195658-exercise.org" "D:/org-roam/daily/2020-12-20.org" "D:/org-roam/daily/2020-12-19.org"))
  '(package-selected-packages
-   '(org-gcal moe-theme org-pomodoro go-guru auctex magit git go-autocomplete auto-complete exec-path-from-shell go-mode org pkg-info org-pdftools rust-mode deft org-drill ivy-bibtex org-ref org-roam-bibtex olivetti swiper-helm counsel ivy org-roam)))
+   '(org-bullets draft-mode writegood-mode org-gcal moe-theme org-pomodoro go-guru auctex magit git go-autocomplete auto-complete exec-path-from-shell go-mode org pkg-info org-pdftools rust-mode deft org-drill ivy-bibtex org-ref org-roam-bibtex olivetti swiper-helm counsel ivy org-roam)))
+(put 'LaTeX-narrow-to-environment 'disabled nil)
+(put 'narrow-to-region 'disabled nil)
